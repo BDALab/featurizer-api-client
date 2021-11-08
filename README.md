@@ -1,4 +1,4 @@
-# Featurizer API Client Base
+# Featurizer API client
 
 This package provides a lightweight client application for the [Featurizer API](https://github.com/BDALab/featurizer-api/) RESTFull server application. The package implements `FeaturizerApiClient` class enabling fast and easy method-based calls to all endpoints accessible on the API. To make working with the client a piece of cake, it provides full-documented example scripts for each of the supported endpoints. For more information about the Featurizer API, please read the official [readme](https://github.com/BDALab/featurizer-api#readme) and [documentation](https://github.com/BDALab/featurizer-api/tree/master/docs).
 
@@ -24,39 +24,8 @@ _The full programming sphinx-generated docs can be seen in `docs/`_.
 
 ## Installation
 
-### 1. Installation via PyPi
-
 ```
 pip install featurizer-api-client
-```
-
-### 2. Installation via cloning
-
-```
-# Clone the repository
-git clone https://github.com/BDALab/featurizer-api-client.git
-
-# Install packaging utils
-pip install --upgrade pip
-pip install --upgrade virtualenv
-
-# Change directory
-cd featurizer-api-client
-
-# Activate virtual environment
-# Linux
-# Windows
-
-# Linux
-virtualenv .venv
-source .venv/bin/activate
-
-# Windows
-virtualenv venv
-venv\Scripts\activate.bat
-
-# Install dependencies
-pip install .
 ```
 
 ## Configuration
