@@ -3,6 +3,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/BDALab/featurizer-api-client)
 ![GitHub last commit](https://img.shields.io/github/last-commit/BDALab/featurizer-api-client)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/featurizer-api-client)
+![GitHub top language](https://img.shields.io/github/languages/top/BDALab/featurizer-api-client)
 ![PyPI - License](https://img.shields.io/pypi/l/featurizer-api-client)
 
 This package provides a [PyPi-installable](https://pypi.org/project/featurizer-api-client/) lightweight client application for the [Featurizer API](https://github.com/BDALab/featurizer-api/) RESTFull server application. The package implements `FeaturizerApiClient` class enabling fast and easy method-based calls to all endpoints accessible on the API. To make working with the client a piece of cake, it provides full-documented example scripts for each of the supported endpoints. For more information about the Featurizer API, please read the official [readme](https://github.com/BDALab/featurizer-api#readme) and [documentation](https://github.com/BDALab/featurizer-api/tree/master/docs).
