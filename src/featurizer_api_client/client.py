@@ -163,7 +163,7 @@ class FeaturizerApiClient(object):
         Calls .featurize(...) on an injected featurization library via the API.
 
         :param access_token: access token
-        :type access_token: str, optional
+        :type access_token: str
         :param refresh_token: refresh token
         :type refresh_token: str
         :param features_pipeline: features pipeline
