@@ -2,6 +2,8 @@
 
 ![GitHub contributors](https://img.shields.io/github/contributors/BDALab/featurizer-api-client)
 ![GitHub last commit](https://img.shields.io/github/last-commit/BDALab/featurizer-api-client)
+![GitHub issues](https://img.shields.io/github/issues/BDALab/featurizer-api-client)
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/BDALab/featurizer-api-client)
 ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/featurizer-api-client)
 ![GitHub top language](https://img.shields.io/github/languages/top/BDALab/featurizer-api-client)
 ![PyPI - License](https://img.shields.io/pypi/l/featurizer-api-client)
