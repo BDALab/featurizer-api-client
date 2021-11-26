@@ -340,10 +340,18 @@ class FeaturizerApiClient(object):
         # Log the featurization
         self.logger.info(f"./featurize ({response.status_code}) data: {data}; response: {response.json()}")
 
-        # Return the featurization response
+        # Prepare the featurization response
         if response.status_code == HTTPStatus.OK:
-            return self.data_wrapper.unwrap_data(response.json().get("features")), response.status_code
-        return response.json(), response.status_code
+            features = response.json().get("features")
+            features = {
+                "values": self.data_wrapper.unwrap_data(features.get("values")),
+                "labels": features.get("labels")
+            }
+        else:
+            features = response.json()
+
+        # Return the featurization response
+        return features, response.status_code
 
     # ----- #
     # Hooks #
