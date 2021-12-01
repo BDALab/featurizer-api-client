@@ -94,7 +94,7 @@ print(f"Signing-up a new user with username: {username} and password: {password}
 response, status_code = client.sign_up(username, password)
 
 # Check the output
-if status_code == HTTPStatus.OK:
+if status_code in (HTTPStatus.OK, HTTPStatus.CREATED):
     print("Successfully signed-up a new user")
 else:
     print(f"The request was unsuccessful ({status_code}): {response}")

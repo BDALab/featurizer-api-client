@@ -38,7 +38,7 @@ def example_sign_up_user():
     response, status_code = client.sign_up(username, password)
 
     # Check the output
-    if status_code == HTTPStatus.OK:
+    if status_code in (HTTPStatus.OK, HTTPStatus.CREATED):
         print("Successfully signed-up a new user")
     else:
         print(f"The request was unsuccessful ({status_code}): {response}")
